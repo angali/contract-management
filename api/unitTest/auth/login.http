@@ -1,0 +1,12 @@
+#email: Must be a valid email address
+#password: Password must be at least 6 characters long
+@baseUrl = http://localhost:8000/api
+
+# @name login
+POST {{baseUrl}}/login  HTTP/1.1
+content-type: application/json
+
+{
+    "email": "your@email.com",
+    "password": "pass"
+}

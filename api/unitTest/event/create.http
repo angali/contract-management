@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/event/create
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxNzM2NDU3MzE0OTFkODQxMGY0MWMiLCJpYXQiOjE2Njk3NjEzNzYsImV4cCI6MTY3MDM2NjE3Nn0.ftq0CxAj7U06GvAz0mr96kQjUhnS0ERLF3LbvpGIyyE
+
+{
+    "contractId": 4,
+    "premium": 100,
+    "startDate": "2020-02-03"
+}

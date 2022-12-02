@@ -1,0 +1,10 @@
+#token: Token is required
+@baseUrl = http://localhost:8000/api
+
+# @name userRegisterActivate
+POST {{baseUrl}}/register/activate  HTTP/1.1
+content-type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGhlIFN0YXJ0cyBBQiIsImVtYWlsIjoiYW5nYWxpLmhAZ21haWwuY29tIiwicGFzc3dvcmQiOiJxcmVkMjAyMiIsImlhdCI6MTY1OTk2NDA3MywiZXhwIjoxNjU5OTY1MjczfQ.nDzCVS9h20dvG_m4Xm_37D88C_RbmXqxf9051llPeNI"
+}

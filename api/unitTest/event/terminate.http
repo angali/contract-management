@@ -1,0 +1,8 @@
+POST http://localhost:8000/api/event/terminate
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmYxNzM2NDU3MzE0OTFkODQxMGY0MWMiLCJpYXQiOjE2Njk4MjI2NzUsImV4cCI6MTY3MDQyNzQ3NX0.tESP0o5gNFQq3skv0eQ-Btw_sXi27Ov3rWdvatKybEE
+
+{
+    "contractId": 1,
+    "startDate": "2020-02-01"
+}
