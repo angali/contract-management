@@ -1,0 +1,10 @@
+version: '3'
+services:
+  managecontracts:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      NODE_ENV: production
+      PRODUCTION: 'true'
+      BACKEND_API_URL: http://localhost:8000/api 
